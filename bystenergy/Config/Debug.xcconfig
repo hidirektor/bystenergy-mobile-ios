@@ -1,0 +1,17 @@
+// Debug configuration settings
+PRODUCT_BUNDLE_IDENTIFIER = com.bystenergy.debug
+PRODUCT_NAME = Byst Energy Debug
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon.debug
+
+// API Configuration
+API_BASE_URL = https:\/\/dev-api.bystenergy.com
+API_VERSION = v1
+
+// Feature Flags
+ENABLE_LOGGING = YES
+ENABLE_DEBUG_MENU = YES
+ENABLE_MOCK_DATA = YES
+
+// Third-party API Keys
+ANALYTICS_KEY = debug_analytics_key
+CRASHLYTICS_KEY = debug_crashlytics_key 

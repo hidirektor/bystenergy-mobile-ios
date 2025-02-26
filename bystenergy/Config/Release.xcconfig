@@ -1,0 +1,17 @@
+// Release configuration settings
+PRODUCT_BUNDLE_IDENTIFIER = com.bystenergy
+PRODUCT_NAME = Byst Energy
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+// API Configuration
+API_BASE_URL = https:\/\/api.bystenergy.com
+API_VERSION = v1
+
+// Feature Flags
+ENABLE_LOGGING = NO
+ENABLE_DEBUG_MENU = NO
+ENABLE_MOCK_DATA = NO
+
+// Third-party API Keys
+ANALYTICS_KEY = $(ANALYTICS_PROD_KEY)
+CRASHLYTICS_KEY = $(CRASHLYTICS_PROD_KEY) 
